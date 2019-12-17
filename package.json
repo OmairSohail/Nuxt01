@@ -1,0 +1,27 @@
+{
+  "name": "HotelApp",
+  "version": "1.0.0",
+  "description": "My well-made Nuxt.js project",
+  "author": "Omair",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "firebase": "^7.6.0",
+    "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.2",
+    "pug": "^2.0.4",
+    "simple-vue-validator": "^0.16.0",
+    "vue2-google-maps": "^0.10.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
